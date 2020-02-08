@@ -46,3 +46,20 @@ answer.append('C')
 
 print(chose_from_two)
 print(answer)
+
+
+# キーで値を探す時にディクショナリー型　　例：本の目次
+fruits = {
+  'apple': 100,
+  'banana': 300,
+  'orange': 200
+}
+print(fruits['orange'])
+# >> 200
+
+
+# 集合　友達を探すときなど
+my_friends = {'A', 'C' ,'D'}
+A_friends = {'B', 'D', 'E', 'F'}
+print(my_friends & A_friends)
+# >> {'D'}
