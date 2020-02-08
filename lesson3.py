@@ -27,3 +27,29 @@ x = 1
 if x in y:
     print('in')
 # >> in
+
+
+# is は　None　オブジェクトで用いられる
+is_empty = None
+if is_empty is None:
+    print('None!!!')
+
+
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+
+count = 0
+while True:
+    if count >= 5:
+        break
+    print(count)
+    count += 1
+
+
+while True:
+    word = input('Enter:')
+    if word == 'ok':
+        break
+    print('next')
