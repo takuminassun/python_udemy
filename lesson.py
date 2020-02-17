@@ -1,23 +1,35 @@
-# import lesson_package.utils
-# from lesson_package.tools import utils
+# import builtins
 
-# from lesson_package.talk import human
-# from lesson_package.talk import animal
-# *を使ったimportも勧められていない
-# from lesson_package.talk import *
+# builtins.print()
 
-# print(animal.sing())
-# print(animal.cry())
+# ranking = {
+#     'A': 100,
+#     'B': 85,
+#     'C': 95
+# }
 
-# r = utils.say_twice('hello')
-# print(r)
+# print(sorted(ranking, key = ranking.get, reverse=True))
 
-# print(human.sing())
-# print(human.cry()
+# s = "nafvuiljn sieughjavnirula"
 
-try:
-    from lesson_package import utils
-except ImportError:
-    from lesson_package.tools import utils
+# d = {}
+# for c in s:
+#     if c not in d:
+#         d[c] = 0
+#     d[c] += 1
+# print(d)
 
-print(utils.say_twice('word'))
+
+# d = {}
+# for c in s:
+#     d.setdefault(c, 0)
+#     d[c] += 1
+# print(d)
+
+# from collections import defaultdict
+
+# d = defaultdict(int)
+
+# for c in s:
+#     d[c] += 1
+# print(d)
